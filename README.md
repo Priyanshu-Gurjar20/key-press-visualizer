@@ -67,7 +67,7 @@ key-press-visualizer/
 *(Enable GitHub Pages to add your live link here)*
 
 ```
-https://your-username.github.io/key-press-visualizer/
+https://priyanshu-gurjar20.github.io/key-press-visualizer/
 ```
 
 ---
