@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Key Press Visualizer</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Poppins", sans-serif;
+        }
+
+        html, body {
+            width: 100%;
+            height: 100%;
+        }
+
+        #main {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            width: 100%;
+            height: 100%;
+            background-color: #111;
+            color: white;
+            transition: background-color 0.3s ease;
+        }
+
+        h1 {
+            font-size: 8rem;
+            font-weight: 500;
+            transition: transform 0.15s ease, color 0.3s ease;
+        }
+
+        .info {
+            margin-top: 20px;
+            font-size: 1.2rem;
+            opacity: 0.7;
+        }
+
+        .animate {
+            transform: scale(1.2);
+            color: #00ffcc;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="main">
+        <h1>Press Any Key</h1>
+        <div class="info">
+            Key: <span id="key">-</span> |
+            Code: <span id="code">-</span>
+        </div>
+    </div>
+
+    <script src="pro1.js"></script>
+</body>
+</html>
